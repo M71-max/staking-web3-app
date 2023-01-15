@@ -1,0 +1,47 @@
+.btn {
+    color: blueviolet;
+    background-color: blue;
+}
+
+.body {
+    margin: auto;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: medium;
+    padding: 0%;
+    background-color: chocolate;
+}
+
+.connect-button {
+    margin-left: 20px;
+    margin-top: 30px;
+    top:50%;
+    background-color:#3131e7;
+    color: #fff;
+    border:none;
+    border-radius:10px;
+}
+
+.connect-btn {
+    margin-left: 20px;
+    margin-top: 30px;
+    padding: 10px 20px;
+    top:50%;
+    background-color:#e23213;
+    color: #fff;
+    border:none;
+    border-radius:10px;
+    cursor: pointer;
+    transition: color 0.4s linear;
+}
+
+.user-info {
+    text-align: right;
+}
+
+
+.btn1 {
+    background-color: black;
+    color: #fff;
+    border:none;
+    border-radius:10px;
+}

@@ -1,0 +1,91 @@
+.body {
+    margin: auto;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: medium;
+    padding: 0%;
+    background-color: chocolate;
+}
+
+.connect-button {
+    margin-left: 20px;
+    margin-top: 30px;
+    top:50%;
+    background-color:#3131e7;
+    color: #fff;
+    border:none;
+    border-radius:10px;
+}
+
+.connect-btn {
+    margin-left: 20px;
+    margin-top: 30px;
+    padding: 10px 20px;
+    top:50%;
+    background-color:#e23213;
+    color: #fff;
+    border:none;
+    border-radius:10px;
+    cursor: pointer;
+    transition: color 0.4s linear;
+}
+
+.user-info {
+    text-align: right;
+}
+
+.pool {
+    color: steelblue;
+}
+
+.fix-pool {
+    color: steelblue;
+}
+
+
+.btn {
+    background-color: steelblue;
+    color: #fff;
+    border:none;
+    border-radius:10px;
+}
+
+.btn1 {
+    background-color: black;
+    color: #fff;
+    border:none;
+    border-radius:10px;
+}
+
+.btn:not(:disabled):hover {
+    transform: scale(1.04)
+}
+
+.btn[data-mint-loading="true"] {
+    background: rgba(22, 25, 31, 0.24);
+}
+
+.btn[data-mint-started="true"] {
+    background-image: linear-gradient(270deg, #FF6257, #FF5CA0);
+    position: relative;
+}
+
+.btn[data-mint-started="true"]::after {
+    animation-name: pulse;
+    animation-duration: 500ms;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    background-color: #FF6257;
+    border-radius: inherit;
+    bottom: 0;
+    content: ' ';
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.btn[data-mint-done="true"] {
+    opacity: 0;
+    transform: scale(0.85);
+}
